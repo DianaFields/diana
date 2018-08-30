@@ -1,0 +1,308 @@
+#digital {
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    #digital .row {
+      margin-right: 0;
+      margin-left: 0; } }
+  #digital .row .pro-main-img {
+    padding: 0; }
+  #digital h1 {
+    z-index: 99;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A4A4A;
+    line-height: 30px;
+    transform: rotate(-90deg);
+    padding-left: 20px;
+    position: absolute;
+    letter-spacing: 1px; }
+    #digital h1 div {
+      width: 4px;
+      height: 32px;
+      -webkit-transform: skew(-30deg);
+      -moz-transform: skew(-30deg);
+      -o-transform: skew(-30deg);
+      -ms-transform: skew(-30deg);
+      transform: skew(-30deg);
+      background: #e670a2;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    @media screen and (max-width: 767px) {
+      #digital h1 {
+        left: -5em;
+        top: 9em; } }
+    @media screen and (min-width: 768px) {
+      #digital h1 {
+        top: 13em; } }
+  @media screen and (min-width: 1024px) {
+    #digital .pro-front-100 p {
+      width: 40%; }
+    #digital .pro-front-100 img {
+      width: 100%; } }
+
+.pro-front-80 picture {
+  padding-top: 6em;
+  text-align: center;
+  margin: 0 auto; }
+@media screen and (min-width: 1024px) {
+  .pro-front-80 p {
+    width: 40%; }
+  .pro-front-80 img {
+    width: 100%; } }
+
+.pro-front {
+  background: #fff;
+  color: #4a4a4a; }
+  .pro-front picture {
+    text-align: center;
+    margin: 0 auto; }
+  .pro-front h2 {
+    font-size: 22px;
+    font-weight: 600 !important;
+    margin-top: 3em; }
+  .pro-front p {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 1em 0 2em 0; }
+  @media screen and (max-width: 1023px) {
+    .pro-front img {
+      width: 100%; } }
+
+.pro-info {
+  background: #fff;
+  padding: 3em 0;
+  text-align: center; }
+  .pro-info div {
+    list-style: none;
+    display: inline-block;
+    color: #4a4a4a;
+    text-align: left; }
+    .pro-info div p {
+      font-weight: 600;
+      display: inline-block; }
+  @media screen and (min-width: 1024px) {
+    .pro-info .item {
+      margin: 0 5em 0 0; } }
+
+.pro-dark-01 {
+  background: #3c12ff;
+  color: #fff;
+  position: relative;
+  padding: 3em 0;
+  padding-bottom: 6em; }
+
+.pro-dark-02 {
+  background: #4A4A4A;
+  color: #fff;
+  position: relative;
+  padding: 3em 0;
+  padding-bottom: 6em; }
+  .pro-dark-02 .title {
+    margin-bottom: 1em;
+    font-weight: 600;
+    position: relative; }
+    .pro-dark-02 .title p {
+      margin: 0;
+      line-height: 50px;
+      position: relative; }
+      .pro-dark-02 .title p:after {
+        content: '\00a0';
+        width: 75px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+    .pro-dark-02 .title span {
+      font-weight: 200; }
+  .pro-dark-02 .pro-dark-gral-txt {
+    padding: 2em 0; }
+  .pro-dark-02 .subtitle {
+    font-weight: 200; }
+  .pro-dark-02 .pro-dark-gral-txt {
+    font-size: 18px; }
+  @media screen and (max-width: 768px) {
+    .pro-dark-02 {
+      margin-right: 0;
+      margin-left: 0; } }
+
+.pro-pic-right {
+  background: #fff; }
+  .pro-pic-right .graphic-item {
+    padding-top: 5em; }
+  .pro-pic-right .subtitle {
+    font-size: 20px;
+    font-weight: 600; }
+  .pro-pic-right .pro-pic-txt {
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 99;
+    padding: 2em;
+    max-height: 260px;
+    margin-top: 5em; }
+    .pro-pic-right .pro-pic-txt .subtitle {
+      font-size: 20px;
+      font-weight: 600; }
+    .pro-pic-right .pro-pic-txt .pro-desc {
+      font-size: 18px; }
+  .pro-pic-right picture img {
+    width: 100%;
+    margin-top: -4em; }
+  .pro-pic-right .pro-arduino-icon {
+    margin: 2em; }
+    .pro-pic-right .pro-arduino-icon li {
+      list-style: none; }
+      .pro-pic-right .pro-arduino-icon li div {
+        width: 100px;
+        height: 100px;
+        margin: 1em 0 0 4em; }
+      .pro-pic-right .pro-arduino-icon li .icon-01 {
+        background: url("../img/work/int/arduino-icon-01.png") no-repeat;
+        background-size: contain; }
+      .pro-pic-right .pro-arduino-icon li .icon-02 {
+        background: url("../img/work/int/arduino-icon-02.png") no-repeat; }
+      .pro-pic-right .pro-arduino-icon li .icon-03 {
+        background: url("../img/work/int/arduino-icon-03.png") no-repeat;
+        background-size: contain; }
+  @media screen and (min-width: 1024px) {
+    .pro-pic-right .pro-pic-txt {
+      margin-right: -8em; }
+    .pro-pic-right .pro-pic-icon {
+      margin: 5em 0 7em 11em; } }
+  .pro-pic-right .pro-pic-icon {
+    text-align: center; }
+    .pro-pic-right .pro-pic-icon img {
+      width: 100%;
+      margin-top: inherit; }
+  .pro-pic-right .color-palette {
+    margin-bottom: 10em; }
+    .pro-pic-right .color-palette li {
+      list-style: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px; }
+
+.pro-pic-center .pro-pic-txt {
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 99;
+  padding: 2em;
+  max-height: 260px;
+  margin-top: 5em; }
+  .pro-pic-center .pro-pic-txt .subtitle {
+    font-size: 20px;
+    font-weight: 600; }
+  .pro-pic-center .pro-pic-txt .pro-desc {
+    font-size: 18px; }
+.pro-pic-center picture img {
+  width: 100%;
+  margin-top: -4em; }
+.pro-pic-center .pro-arduino-icon {
+  margin: 2em; }
+  .pro-pic-center .pro-arduino-icon li {
+    list-style: none; }
+    .pro-pic-center .pro-arduino-icon li div {
+      width: 100px;
+      height: 100px;
+      margin: 1em 0 0 4em; }
+    .pro-pic-center .pro-arduino-icon li .icon-01 {
+      background: url("../img/work/int/arduino-icon-01.png") no-repeat;
+      background-size: contain; }
+    .pro-pic-center .pro-arduino-icon li .icon-02 {
+      background: url("../img/work/int/arduino-icon-02.png") no-repeat; }
+    .pro-pic-center .pro-arduino-icon li .icon-03 {
+      background: url("../img/work/int/arduino-icon-03.png") no-repeat;
+      background-size: contain; }
+@media screen and (min-width: 1024px) {
+  .pro-pic-center .pro-pic-txt {
+    margin-right: -8em; } }
+
+.pro-pic-left {
+  background: #fff; }
+  .pro-pic-left .pro-pic-txt {
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 99;
+    padding: 2em;
+    margin-top: 5em; }
+    .pro-pic-left .pro-pic-txt .subtitle {
+      font-size: 20px;
+      font-weight: 600; }
+    .pro-pic-left .pro-pic-txt .pro-desc {
+      font-size: 18px; }
+    @media screen and (min-width: 767px) {
+      .pro-pic-left .pro-pic-txt {
+        margin-left: -8em;
+        max-height: 250px; } }
+  .pro-pic-left picture img {
+    width: 100%;
+    margin-top: -4em; }
+  @media screen and (max-width: 768px) {
+    .pro-pic-left {
+      margin-right: 0;
+      margin-left: 0; } }
+
+.pic-fix img {
+  margin-top: inherit !important; }
+
+.pro-pic-icon {
+  background: #fff; }
+
+.pro-icon-3 {
+  background: #fff;
+  padding: 2em 0 7em 0; }
+  .pro-icon-3 div {
+    padding-left: 4em; }
+  .pro-icon-3 .title {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 2em 0; }
+  .pro-icon-3 .icon-dev-01 span {
+    width: 50px;
+    height: 50px;
+    background: url("../img/icons/icon-device.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0; }
+  .pro-icon-3 .icon-dev-02 span {
+    width: 50px;
+    height: 50px;
+    background: url("../img/icons/icon-connected.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0; }
+
+.pro-light-01 {
+  background: #ececec;
+  padding: 2em 0; }
+  .pro-light-01 .title {
+    font-weight: 600; }
+  .pro-light-01 ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 2em; }
+    .pro-light-01 ul li img {
+      width: 100%; }
+
+.pro-img-tri {
+  background: #fff;
+  padding-bottom: 6em; }
+  .pro-img-tri picture img {
+    width: 100%; }
+
+.title {
+  font-size: 22px; }
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 1em; }
+
+.title span {
+  font-size: 20px; }
+
+.pro-dark-gral-txt {
+  font-size: 18px; }
+
+/*# sourceMappingURL=digital.css.map */

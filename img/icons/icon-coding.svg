@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="40px" viewBox="0 0 73 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-coding</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="FINAL-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-837.000000, -956.000000)" fill="#3C12FF" fill-rule="nonzero">
+            <g id="icon-coding" transform="translate(837.000000, 956.000000)">
+                <path d="M23,35 L0,22.8345527 L0,16.0965635 L23,4 L23,11.9142333 L6.97322212,19.3810849 L23,27.1295622 C23,27.1295622 23,35 23,35 Z" id="Shape"></path>
+                <polygon id="Shape" points="27 40 42.1984564 0 47 0 31.7662326 40"></polygon>
+                <polygon id="Shape" points="50 35 50 27.1303721 66.0236379 19.4453337 50 11.8196017 50 4 73 16.1109791 73 22.807674"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

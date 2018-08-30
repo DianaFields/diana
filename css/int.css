@@ -1,0 +1,223 @@
+#interaction {
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    #interaction .row {
+      margin-right: 0;
+      margin-left: 0; } }
+  #interaction h1 {
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A4A4A;
+    line-height: 30px;
+    transform: rotate(-90deg);
+    padding-left: 20px;
+    position: absolute;
+    top: 7em;
+    letter-spacing: 1px;
+    z-index: 99; }
+    #interaction h1 div {
+      width: 4px;
+      height: 32px;
+      -webkit-transform: skew(-30deg);
+      -moz-transform: skew(-30deg);
+      -o-transform: skew(-30deg);
+      -ms-transform: skew(-30deg);
+      transform: skew(-30deg);
+      background: #e670a2;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    @media screen and (max-width: 768px) {
+      #interaction h1 {
+        left: -5em; } }
+  #interaction .pro-front {
+    background: #d5d5d5;
+    color: #4a4a4a; }
+    #interaction .pro-front picture {
+      padding-top: 6em;
+      text-align: center;
+      margin: 0 auto; }
+    #interaction .pro-front h2 {
+      font-size: 22px;
+      font-weight: 600 !important;
+      margin-top: 3em; }
+    #interaction .pro-front p {
+      font-weight: 200;
+      font-size: 20px;
+      margin: 1em 0 2em 0; }
+    @media screen and (min-width: 1024px) {
+      #interaction .pro-front p {
+        width: 40%; }
+      #interaction .pro-front img {
+        width: 50%; } }
+    @media screen and (max-width: 1023px) {
+      #interaction .pro-front img {
+        width: 70%; } }
+  #interaction .pro-info {
+    background: #fff;
+    padding: 3em 0;
+    text-align: center; }
+    #interaction .pro-info div {
+      list-style: none;
+      display: inline-block;
+      color: #4a4a4a;
+      text-align: left; }
+      #interaction .pro-info div p {
+        font-weight: 600;
+        display: inline-block; }
+    @media screen and (min-width: 1024px) {
+      #interaction .pro-info .item {
+        margin: 0 5em 0 0; } }
+  #interaction .pro-dark-green {
+    background: #00E3C9; }
+  #interaction .pro-dark-01 {
+    background: #3c12ff;
+    color: #fff;
+    position: relative;
+    padding: 3em 0;
+    padding-bottom: 6em; }
+    #interaction .pro-dark-01 .title {
+      font-weight: 600;
+      position: relative; }
+      #interaction .pro-dark-01 .title p {
+        margin: 0;
+        line-height: 50px;
+        position: relative; }
+        #interaction .pro-dark-01 .title p:after {
+          content: '\00a0';
+          width: 75px;
+          height: 1px;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          bottom: 0; }
+      #interaction .pro-dark-01 .title span {
+        font-weight: 200; }
+    #interaction .pro-dark-01 .pro-dark-gral-txt {
+      padding: 2em 0; }
+    #interaction .pro-dark-01 .subtitle {
+      font-weight: 200; }
+    #interaction .pro-dark-01 .pro-dark-gral-txt {
+      font-size: 18px; }
+    @media screen and (max-width: 768px) {
+      #interaction .pro-dark-01 {
+        margin-right: 0;
+        margin-left: 0; } }
+  #interaction .pro-pic-right {
+    background: #fff; }
+    #interaction .pro-pic-right .pro-pic-txt {
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 99;
+      padding: 2em;
+      /*max-height: 200px;*/
+      margin-top: 5em; }
+      #interaction .pro-pic-right .pro-pic-txt .subtitle {
+        font-size: 20px;
+        font-weight: 600; }
+      #interaction .pro-pic-right .pro-pic-txt .pro-desc {
+        font-size: 18px; }
+    #interaction .pro-pic-right picture img {
+      width: 100%;
+      margin-top: -4em; }
+    #interaction .pro-pic-right .pro-arduino-icon {
+      margin: 2em; }
+      #interaction .pro-pic-right .pro-arduino-icon li {
+        list-style: none; }
+        #interaction .pro-pic-right .pro-arduino-icon li div {
+          width: 100px;
+          height: 100px;
+          margin: 1em 0 0 4em; }
+        #interaction .pro-pic-right .pro-arduino-icon li .icon-01 {
+          background: url("../img/work/int/arduino-icon-01.png") no-repeat;
+          background-size: contain; }
+        #interaction .pro-pic-right .pro-arduino-icon li .icon-02 {
+          background: url("../img/work/int/arduino-icon-02.png") no-repeat; }
+        #interaction .pro-pic-right .pro-arduino-icon li .icon-03 {
+          background: url("../img/work/int/arduino-icon-03.png") no-repeat;
+          background-size: contain; }
+    @media screen and (min-width: 1024px) {
+      #interaction .pro-pic-right .pro-pic-txt {
+        margin-right: -8em; } }
+  #interaction .pro-pic-left {
+    background: #fff; }
+    #interaction .pro-pic-left .pro-pic-txt {
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 99;
+      padding: 2em;
+      margin-top: 5em; }
+      #interaction .pro-pic-left .pro-pic-txt .subtitle {
+        font-size: 20px;
+        font-weight: 600; }
+      #interaction .pro-pic-left .pro-pic-txt .pro-desc {
+        font-size: 18px; }
+      @media screen and (min-width: 768px) {
+        #interaction .pro-pic-left .pro-pic-txt {
+          margin-left: -8em;
+          max-height: 250px; } }
+    #interaction .pro-pic-left picture img {
+      width: 100%;
+      margin-top: -4em; }
+    @media screen and (max-width: 768px) {
+      #interaction .pro-pic-left {
+        margin-right: 0;
+        margin-left: 0; } }
+  #interaction .pic-fix img {
+    margin-top: inherit !important; }
+  #interaction .pro-icon-3 {
+    background: #fff;
+    padding: 2em 0 7em 0; }
+    #interaction .pro-icon-3 div {
+      padding-left: 4em; }
+    #interaction .pro-icon-3 .title {
+      display: block;
+      width: 100%;
+      font-weight: 600;
+      font-size: 22px;
+      padding: 2em 0; }
+    #interaction .pro-icon-3 .icon-dev-01 span {
+      width: 50px;
+      height: 50px;
+      background: url("../img/icons/icon-device.svg") no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 0; }
+    #interaction .pro-icon-3 .icon-dev-02 span {
+      width: 50px;
+      height: 50px;
+      background: url("../img/icons/icon-connected.svg") no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 0; }
+  #interaction .pro-light-01 {
+    background: #ececec;
+    padding: 2em 0; }
+    #interaction .pro-light-01 .title {
+      font-weight: 600; }
+    #interaction .pro-light-01 ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 2em; }
+      #interaction .pro-light-01 ul li img {
+        width: 100%; }
+  #interaction .pro-img-tri {
+    background: #ececec;
+    padding-bottom: 6em; }
+    #interaction .pro-img-tri picture img {
+      width: 100%; }
+
+.title {
+  font-size: 22px; }
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 1em; }
+
+.title span {
+  font-size: 20px; }
+
+.pro-dark-gral-txt {
+  font-size: 18px; }
+
+/*# sourceMappingURL=int.css.map */

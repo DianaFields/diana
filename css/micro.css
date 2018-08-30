@@ -1,0 +1,40 @@
+.min-space {
+  height: 50px;
+  width: 100%;
+  background: #fff; }
+
+@keyframes arrow {
+  from {
+    background-position: -30px 0; }
+  to {
+    background-position: 0 0; } }
+.btn-inter {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 21px;
+  width: 150px;
+  height: 44px;
+  margin: 0 auto; }
+  .btn-inter:after {
+    content: '\00a0';
+    transform: skewX(15deg);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #3c12ff;
+    position: absolute;
+    -webkit-transform: skewX(15deg);
+    transform: skewX(15deg);
+    transition: .3s; }
+  .btn-inter input {
+    z-index: 99;
+    position: absolute; }
+  .btn-inter:hover:after {
+    width: 110%;
+    left: -10px; }
+  .btn-inter:hover > input {
+    color: #fff; }
+
+/*# sourceMappingURL=micro.css.map */

@@ -1,0 +1,81 @@
+@mixin basic-transition{
+transition-timing-function: ease-out;
+-webkit-transition-timing-function: ease-out;
+-o-transition-timing-function: ease-out;
+-ms-transition-timing-function: ease-out;
+}
+@mixin app{
+	-webkit-appearance: none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	-ms-appearance:none;
+	outline:none;
+
+}
+@mixin btn{
+	width: 150px;
+		height: 44px;
+		cursor:pointer;
+		border-radius: 21px;
+					  border: solid 1px #3c12ff;
+					  background: none;
+					  font-family: 'IBM Plex Mono', monospace;
+					  
+					  @include app;
+					  span{
+					  	color:#3c12ff;
+					  }
+}
+.min-space{
+	height: 50px;
+	width: 100%;
+	background: #fff;
+}
+@keyframes arrow {
+  from {
+  background-position:-30px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+.btn-inter{
+					  cursor: pointer;
+					  overflow: hidden;
+					  position: relative;
+					      border-radius: 21px;
+					   width: 150px;
+    					height: 44px;
+    					margin:0 auto;
+					  	&:after{
+					  	content:'\00a0';
+    				    transform: skewX(15deg);
+    				    width: 0;
+    				    height:100%;
+    				    top: 0;
+    				    left: 0;
+    				    background: #3c12ff;
+    				    position: absolute;
+    				    -webkit-transform: skewX(15deg);
+          				transform: skewX(15deg);
+          				transition: .3s;
+					  	}
+					  	input{
+					  		z-index: 99;
+					  		position: absolute;
+					  	}
+    				
+    				
+    				@media screen and (min-width: 1024px){
+    					&:hover:after{
+    					width: 110%;
+    					left: -10px;
+    				}
+    				&:hover > input{
+    					color: #fff;
+    				}
+    				}
+}
+
+
