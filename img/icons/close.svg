@@ -1,3 +1,11 @@
-
-<!-- saved from url=(0029)chrome-error://chromewebdata/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body></body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2.7457092,1.6426621 L14.3277038,13.2246567 C14.6323019,13.5292548 14.6323019,14.0231058 14.3277038,14.3277038 C14.0231058,14.6323019 13.5292548,14.6323019 13.2246567,14.3277038 L1.6426621,2.7457092 C1.33806405,2.44111116 1.33806405,1.94726015 1.6426621,1.6426621 C1.94726015,1.33806405 2.44111116,1.33806405 2.7457092,1.6426621 Z" id="Rectangle-3-Copy-2" fill="#D9B6E4"></path>
+        <path d="M14.3277038,2.7457092 L2.7457092,14.3277038 C2.44111116,14.6323019 1.94726015,14.6323019 1.6426621,14.3277038 C1.33806405,14.0231058 1.33806405,13.5292548 1.6426621,13.2246567 L13.2246567,1.6426621 C13.5292548,1.33806405 14.0231058,1.33806405 14.3277038,1.6426621 C14.6323019,1.94726015 14.6323019,2.44111116 14.3277038,2.7457092 Z" id="Rectangle-3-Copy-2" fill="#D9B6E4"></path>
+    </g>
+</svg>

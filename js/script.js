@@ -60,6 +60,25 @@ function cursormov(){
 		$('#mousepos').html('Your mouse is currently at: '+ event.pageX +', '+ event.pageY); 
 	});
 }
+function link(){
+		 // portfolio
+	 $('.item a').click(function() {
+	     var itemID = $(this).attr('href');
+	     $('.gallery').addClass('item_open');
+	     $(itemID).addClass('item_open');
+	     return false;
+	 });
+	 $('.close').click(function() {
+	     $('.port, .gallery ul').removeClass('item_open');
+	     return false;
+	 });
+
+	 $(".item a").click(function() {
+	     $('html, body').animate({
+	         scrollTop: parseInt($("#top").offset().top)
+	     }, 400);
+	 });
+}
 $(document).ready(function(){
 
 	$(window).enllax();
@@ -67,5 +86,5 @@ $(document).ready(function(){
 	loadContact();
 	deskOnly();
 	cursormov();
-
+	link();
 });
