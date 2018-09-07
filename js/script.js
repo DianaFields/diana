@@ -60,16 +60,21 @@ function cursormov(){
 		$('#mousepos').html('Your mouse is currently at: '+ event.pageX +', '+ event.pageY); 
 	});
 }
+function close(){
+
+}
 function link(){
 		 // portfolio
 	 $('.item a').click(function() {
 	     var itemID = $(this).attr('href');
-	     $('.gallery').addClass('item_open');
+	     //$('.item').addClass('item_open');  
 	     $(itemID).addClass('item_open');
+	     $('body').css('overflow','hidden');
 	     return false;
 	 });
-	 $('.close').click(function() {
-	     $('.port, .gallery ul').removeClass('item_open');
+	 $('.close_open').click(function() {
+	     $('.gallery').removeClass('item_open');
+	     $('body').css('overflow','auto');
 	     return false;
 	 });
 
