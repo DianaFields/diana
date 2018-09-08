@@ -1,16 +1,31 @@
 #links {
     background: #fff;
     position: relative;
+    padding-top: 7em;
+    h3{
+    	    TEXT-ALIGN: CENTER;
+	    FONT-FAMILY: 'IBM Plex Mono', monospace;
+	    font-weight: 800;
+	    font-size: 22px;
+	    color: #e670a2;
+	    padding: 1em 0;
+    }
     .item {
         /*margin: 1em;*/
-        padding: 0;
+        padding: 6px;
+        cursor: pointer;
         img {
             width: 100%;
             padding: 0;
+             &:hover{
+             	transition: .3s;
+        		box-shadow:rgba(0,0,0,.59) -4px 12px 27px -11px;
+        	}
         }
         picture {
             padding: 0;
         }
+
     }
     .pro {
         padding: 0;
