@@ -1968,6 +1968,15 @@ body .contact .item {
   max-width: 250px !important; }
 
 /*# sourceMappingURL=styles.css.map */
+.mousepos {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute; }
+
+#mousepos {
+  transform: translate(calc((var(--x) * 1px) / 3), calc((var(--y) * 1px)  / 3)); }
+
 #links {
   background: #fff;
   position: relative;
