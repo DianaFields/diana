@@ -55,32 +55,6 @@ function deskOnly() {
 }
 var heading = document.querySelector('#curso');
 
-function cursormov() {
-    const EASING = 6
-    const element = document.querySelector('#mousepos')
-    const mouse = { x: 0, y: 0 }
-    const pos = { x: 0, y: 0 }
-
-    document.addEventListener('mousemove', e => {
-        mouse.x = e.pageX
-        mouse.y = e.pageY
-    })
-
-    requestAnimationFrame(function _() {
-        pos.x += (mouse.x - pos.x) / EASING
-        pos.y += (mouse.y - pos.y) / EASING
-
-        element.style.setProperty('--x', pos.x)
-        element.style.setProperty('--y', pos.y)
-
-        requestAnimationFrame(_)
-    })
-    // $(document).mousemove(function(event){
-    // 	$('#mousepos').html('Your mouse is currently at: '+ event.pageX +', '+ event.pageY); 
-
-    // });
-
-}
 
 function link() {
     // portfolio
@@ -103,12 +77,24 @@ function link() {
         }, 400);
     });
 }
+function bckWindow(){
+    var movementStrength = 25;
+    var height = movementStrength / $(window).height();
+    var width = movementStrength / $(window).width();
+    $(".project").find('figure').mousemove(function(e){
+              var pageX = e.pageX - ($(window).width() / 2);
+              var pageY = e.pageY - ($(window).height() / 2);
+              var newvalueX = width * pageX * -1 - 25;
+              var newvalueY = height * pageY * -1 - 50;
+              $('.project').find('figure').css("background-position", newvalueX+"px     "+newvalueY+"px");
+    });
+}
 $(document).ready(function() {
-
+bckWindow();
     $(window).enllax();
     animatMenu();
     loadContact();
     deskOnly();
-    cursormov();
     link();
+    
 });
