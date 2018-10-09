@@ -1,45 +1,51 @@
-.mousepos{
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	position: absolute;
-	
+.mousepos {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+
 }
-#mousepos{
-	transform: translate(
-    calc((var(--x) * 1px) / 3),
-    calc((var(--y) * 1px)  / 3)
-  );
+
+#mousepos {
+    transform: translate(calc((var(--x) * 1px) / 3),
+        calc((var(--y) * 1px) / 3));
 }
+
 #links {
     background: #fff;
     position: relative;
     padding-top: 7em;
-    h3{
-    	    TEXT-ALIGN: CENTER;
-	    FONT-FAMILY: 'IBM Plex Mono', monospace;
-	    font-weight: 800;
-	    font-size: 22px;
-	    color: #e670a2;
-	    padding: 1em 0;
+
+    h3 {
+        TEXT-ALIGN: CENTER;
+        FONT-FAMILY: 'IBM Plex Mono', monospace;
+        font-weight: 800;
+        font-size: 22px;
+        color: #e670a2;
+        padding: 1em 0;
     }
+
     .item {
         /*margin: 1em;*/
         padding: 6px;
         cursor: pointer;
+
         img {
             width: 100%;
             padding: 0;
-             &:hover{
-             	transition: .3s;
-        		box-shadow:rgba(0,0,0,.59) -4px 12px 27px -11px;
-        	}
+
+            &:hover {
+                transition: .3s;
+                box-shadow: rgba(0, 0, 0, .59) -4px 12px 27px -11px;
+            }
         }
+
         picture {
             padding: 0;
         }
 
     }
+
     .pro {
         padding: 0;
         margin: 0;
@@ -50,6 +56,7 @@
     font-family: 'IBM Plex Mono', monospace;
     position: fixed;
     width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background: #ffffff;
@@ -60,6 +67,7 @@
     transform: translateX(-100%);
     border-bottom: 1px solid #d0d0d0;
     transition: (all, 0.5s, ease-in-out);
+
     .close_open {
         width: 40px;
         height: 40px;
@@ -70,74 +78,132 @@
         background-size: 100%;
         z-index: 99;
         cursor: pointer;
+
         @media screen and (max-width: 360px) {
-            top:8em;
+            top: 2em;
         }
+
         @media screen and (min-width: 361px) and (max-width: 767px) {
-            top:11em;
+            top: 11em;
         }
     }
+
     .project {
         height: 100%;
         padding: 0;
         margin: 0;
         background: #fff;
         padding-bottom: 3em;
-       
-        .project-01{
-            background: url('../img/work/link/link-open-01.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-01 {
+            background: url('../img/work/link/link-open-01@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+            @media screen and (min-width: 1025px) {
+                background: url('../img/work/link/link-open-01.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
         }
-        .project-02{
-            background: url('../img/work/link/link-open-02.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-02 {
+            background: url('../img/work/link/link-open-02@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+            @media screen and (min-width: 1025px) {
+                background: url('../img/work/link/link-open-02.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
         }
-        .project-03{
-            background: url('../img/work/link/link-open-03.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-03 {
+            background: url('../img/work/link/link-open-03@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+               @media screen and (min-width: 1025px)  {
+                background: url('../img/work/link/link-open-03.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
         }
-        .project-04{
-            background: url('../img/work/link/link-open-04.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-04 {
+            background: url('../img/work/link/link-open-04@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+            @media screen and (min-width: 1025px) {
+                background: url('../img/work/link/link-open-04.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
+
         }
-        .project-05{
-            background: url('../img/work/link/link-open-05.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-05 {
+            background: url('../img/work/link/link-open-05@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+            @media screen and (min-width: 1025px) {
+                background: url('../img/work/link/link-open-05.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
         }
-        .project-06{
-            background: url('../img/work/link/link-open-06.jpg')-25px -50px;
-            position:fixed;
-            top:0;
-            width:100%;
-            height:100%;
-            z-index:1;
-            background-size: calc(100% + 25px);
+
+        .project-06 {
+            background: url('../img/work/link/link-open-06@2X.jpg')no-repeat;
+            background-size: 100%;
+            width: 100%;
+            position: absolute;
+            height: 100%;
+
+            @media screen and (min-width: 1025px) {
+                background: url('../img/work/link/link-open-06.jpg')-25px -50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-size: calc(100% + 25px);
+            }
         }
+
         h1 {
             width: 250px;
             font-size: 20px;
@@ -150,6 +216,7 @@
             top: 7em;
             letter-spacing: 1px;
             z-index: 99;
+
             div {
                 width: 4px;
                 height: 32px;
@@ -168,6 +235,7 @@
         .open-nav {
             position: relative;
             width: 100%;
+
             .link-open-project {
 
                 button {
@@ -187,6 +255,7 @@
                     overflow: hidden;
                     position: relative;
                     z-index: 99;
+
                     &:after {
                         content: '\00a0';
                         transform: skewX(15deg);
@@ -194,13 +263,14 @@
                         height: 100%;
                         top: 0;
                         left: 0;
-                        background: #fff;
+                        background: #e670a2;
                         position: absolute;
                         -webkit-transform: skewX(15deg);
                         transform: skewX(15deg);
                         transition: .3s;
                         z-index: -1;
                     }
+
                     span {
                         color: #fff;
                     }
@@ -211,16 +281,19 @@
                                 width: 110%;
                                 left: -10px;
                             }
-                            span {
-                                color: #000!important;
-                            }
+
+                           /* span {
+                                color: #000 !important;
+                            }*/
                         }
                     }
                 }
             }
+
             @media screen and (min-width: 768px) {
                 padding: 2em;
             }
+
             @media screen and (max-width: 767px) {
                 padding: 1em;
             }
@@ -231,6 +304,7 @@
             color: #fff;
             position: relative;
             font-weight: 700;
+
             &:after {
                 content: '\00a0';
                 width: 50px;
@@ -241,29 +315,42 @@
                 left: 0;
                 margin-left: 1em;
             }
+
             p {
                 font-size: 24px;
             }
         }
+
         .open-txt {
             margin: 20% 0 0 0;
             background: rgba(0, 0, 0, .7);
             color: #fff;
             z-index: 3;
+
             .pro-dark-gral-txt {
                 padding: 5% 0 0 5%;
             }
+            
+             &:hover {
+                 box-shadow: rgba(0, 0, 0, 1) -4px 12px 27px -11px;
+              
+                }
         }
+
         @media screen and (min-width: 768px) {}
+
         @media screen and (max-width: 767px) {
+            padding-bottom:0!important;
             .open-txt {
-                margin-top: 35%;
+                margin-top: 0;
                 height: 100%;
+
                 .pro-dark-gral-txt {
                     font-size: 16px;
                 }
             }
         }
+
         .row {
             margin: 0;
         }

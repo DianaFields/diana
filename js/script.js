@@ -52,6 +52,8 @@ function deskOnly() {
         $('#vdoCisco').html('<video style="width:100%;" autoplay="autoplay" muted="muted" preload="auto" controls><source src="../img/videos/beHiveHD.mp4" type="video/mp4"></video>');
 
     }
+
+    
 }
 var heading = document.querySelector('#curso');
 
@@ -87,6 +89,12 @@ function bckWindow(){
               var newvalueX = width * pageX * -1 - 25;
               var newvalueY = height * pageY * -1 - 50;
               $('.project').find('figure').css("background-position", newvalueX+"px     "+newvalueY+"px");
+    });
+    $(".open-txt").mouseover(function(e){
+        $('.bck-window').css('filter','grayscale(100%)');
+    });
+    $(".open-txt").mouseout(function(e){
+        $('.bck-window').css('filter','inherit');
     });
 }
 $(document).ready(function() {

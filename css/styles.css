@@ -1975,7 +1975,7 @@ body .contact .item {
   position: absolute; }
 
 #mousepos {
-  transform: translate(calc((var(--x) * 1px) / 3), calc((var(--y) * 1px)  / 3)); }
+  transform: translate(calc((var(--x) * 1px) / 3), calc((var(--y) * 1px) / 3)); }
 
 #links {
   background: #fff;
@@ -2008,6 +2008,7 @@ body .contact .item {
   font-family: 'IBM Plex Mono', monospace;
   position: fixed;
   width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   background: #ffffff;
@@ -2030,7 +2031,7 @@ body .contact .item {
     cursor: pointer; }
     @media screen and (max-width: 360px) {
       .gallery .close_open {
-        top: 8em; } }
+        top: 2em; } }
     @media screen and (min-width: 361px) and (max-width: 767px) {
       .gallery .close_open {
         top: 11em; } }
@@ -2041,53 +2042,95 @@ body .contact .item {
     background: #fff;
     padding-bottom: 3em; }
     .gallery .project .project-01 {
-      background: url("../img/work/link/link-open-01.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-01@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-01 {
+          background: url("../img/work/link/link-open-01.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project .project-02 {
-      background: url("../img/work/link/link-open-02.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-02@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-02 {
+          background: url("../img/work/link/link-open-02.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project .project-03 {
-      background: url("../img/work/link/link-open-03.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-03@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-03 {
+          background: url("../img/work/link/link-open-03.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project .project-04 {
-      background: url("../img/work/link/link-open-04.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-04@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-04 {
+          background: url("../img/work/link/link-open-04.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project .project-05 {
-      background: url("../img/work/link/link-open-05.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-05@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-05 {
+          background: url("../img/work/link/link-open-05.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project .project-06 {
-      background: url("../img/work/link/link-open-06.jpg")-25px -50px;
-      position: fixed;
-      top: 0;
+      background: url("../img/work/link/link-open-06@2X.jpg") no-repeat;
+      background-size: 100%;
       width: 100%;
-      height: 100%;
-      z-index: 1;
-      background-size: calc(100% + 25px); }
+      position: absolute;
+      height: 100%; }
+      @media screen and (min-width: 1025px) {
+        .gallery .project .project-06 {
+          background: url("../img/work/link/link-open-06.jpg")-25px -50px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-size: calc(100% + 25px); } }
     .gallery .project h1 {
       width: 250px;
       font-size: 20px;
@@ -2139,7 +2182,7 @@ body .contact .item {
           height: 100%;
           top: 0;
           left: 0;
-          background: #fff;
+          background: #e670a2;
           position: absolute;
           -webkit-transform: skewX(15deg);
           transform: skewX(15deg);
@@ -2148,11 +2191,13 @@ body .contact .item {
         .gallery .project .open-nav .link-open-project button span {
           color: #fff; }
         @media screen and (min-width: 1024px) {
-          .gallery .project .open-nav .link-open-project button:hover:after {
-            width: 110%;
-            left: -10px; }
-          .gallery .project .open-nav .link-open-project button:hover span {
-            color: #000 !important; } }
+          .gallery .project .open-nav .link-open-project button:hover {
+            /* span {
+                 color: #000 !important;
+             }*/ }
+            .gallery .project .open-nav .link-open-project button:hover:after {
+              width: 110%;
+              left: -10px; } }
       @media screen and (min-width: 768px) {
         .gallery .project .open-nav {
           padding: 2em; } }
@@ -2182,12 +2227,16 @@ body .contact .item {
       z-index: 3; }
       .gallery .project .open-txt .pro-dark-gral-txt {
         padding: 5% 0 0 5%; }
+      .gallery .project .open-txt:hover {
+        box-shadow: black -4px 12px 27px -11px; }
     @media screen and (max-width: 767px) {
-      .gallery .project .open-txt {
-        margin-top: 35%;
-        height: 100%; }
-        .gallery .project .open-txt .pro-dark-gral-txt {
-          font-size: 16px; } }
+      .gallery .project {
+        padding-bottom: 0 !important; }
+        .gallery .project .open-txt {
+          margin-top: 0;
+          height: 100%; }
+          .gallery .project .open-txt .pro-dark-gral-txt {
+            font-size: 16px; } }
     .gallery .project .row {
       margin: 0; }
 
