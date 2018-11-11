@@ -1330,7 +1330,6 @@ body .hm-dev .hm-dev-mob .hm-dev-txt p {
 
   body .hm-dev .hm-dev-mob figure {
     background: url("../img/object-identity.png") no-repeat;
-    min-height: 260px;
     background-size: 60%;
     background-position: 100% 0%; } }
 body .hm-dev .hm-dev-tab {

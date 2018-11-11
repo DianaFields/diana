@@ -1691,7 +1691,6 @@ body .hm-dev .hm-dev-mob .hm-dev-txt p {
 
   body .hm-dev .hm-dev-mob figure {
     background: url("../img/object-identity.png") no-repeat;
-    min-height: 260px;
     background-size: 60%;
     background-position: 100% 0%; } }
 body .hm-dev .hm-dev-tab {
@@ -2618,7 +2617,6 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
             margin-top: -7em; }
           body .hm-dev .hm-dev-mob figure {
             background: url("../img/object-identity.png") no-repeat;
-            min-height: 260px;
             background-size: 60%;
             background-position: 100% 0%; } }
     body .hm-dev .hm-dev-tab {
@@ -2905,5 +2903,10 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
   #gallery .link-06 {
     background: url("../img/work/home/gallery-06@2x.png");
     background-size: 100%; } }
+
+@media screen and (min-width: 1400px) {
+  body .hm-dev figure {
+    min-height: 450px;
+    margin-top: 7em; } }
 
 /*# sourceMappingURL=styles.css.map */

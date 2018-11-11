@@ -474,7 +474,6 @@ body{
 				}
 				figure{
 					background:url('../img/object-identity.png')no-repeat;
-					min-height: 260px;
 					background-size: 60%;
 			   		background-position: 100% 0%;
 
@@ -854,7 +853,12 @@ body{
 	}
 	
 }
-
+@media screen and (min-width: 1400px){
+	body .hm-dev  figure{
+		min-height: 450px;
+		margin-top: 7em;
+	}
+}
 
 
 
