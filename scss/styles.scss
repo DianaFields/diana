@@ -20,7 +20,7 @@ body{
 		width: 100%;
 			padding: 0;
 			.hm-nav-opt{
-				
+
 			}
 			nav{
 				background: rgba(0, 0, 0, 0.8);
@@ -50,7 +50,7 @@ body{
 						border: solid 1px #ffffff;
 						left: 0;
 						bottom:0;
-					}	  
+					}
 			}
 			@media screen and (max-width: 767px){
 				width:100%;
@@ -64,9 +64,9 @@ body{
 			    top: -1em!important;*/
 			}
 			}
-			
+
 			.hm-nav-opt {
-				
+
 				button{
 					background: none;
 					border:none;
@@ -85,10 +85,10 @@ body{
 						.hm-nav-icon{
 							border:inherit;
 						}
-						
+
 				}
 				.dropdown-toggle{
-					background-color:inherit!important; 
+					background-color:inherit!important;
 					box-shadow: inherit!important;
 					float: right;
 				}
@@ -106,13 +106,13 @@ body{
 					    top: 0;
     					height: 100%;
 				}
-			
+
 			}
 			.show button::after{
 				    background-image: url(../img/icons/close.svg) !important;
 				    background-size: 60%;
 				    background-position: center;
-					    
+
 			}
 
 			.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
@@ -152,23 +152,23 @@ body{
 					background-repeat: no-repeat;
 				}
 			}
-			
+
 		}
 		:first-child > span{
 				background-image: url('../img/icons/icon-ux.svg');
-				background-size: 100%; 
+				background-size: 100%;
 			}
 		:nth-child(2) > span{
 				background-image: url('../img/icons/icon-coding.svg');
-				background-size: 100%; 
+				background-size: 100%;
 			}
 		:nth-child(3) > span{
 				background-image: url('../img/icons/icon-magento.svg');
-				background-size: contain; 
+				background-size: contain;
 			}
 		:nth-child(4) > span{
 				background-image: url('../img/icons/icon-creative-cloud.svg');
-				background-size: 100%; 
+				background-size: 100%;
 			}
 		@media screen and (max-width: 768px){
 			ul{
@@ -179,14 +179,14 @@ body{
 				}
 			}
 		}
-			
+
 	}
 	.hm-intro{
 		padding: 0;
 	    width: 100%;
 	    margin: 0;
 	    padding-top: 3em;
-		
+
     position: relative;
 		.profile{
     			padding: 0;
@@ -194,7 +194,7 @@ body{
 				width: 100%;
     			opacity: .4;
 			}
-			
+
 		}
 		h1{
 			font-weight:600;
@@ -298,7 +298,7 @@ body{
 		background-image: linear-gradient(to bottom, #d5d5d5, #ffffff);
 		margin: 0;
 		figure{
-			
+
 
 			h2{
 					  font-size: 30px;
@@ -306,18 +306,18 @@ body{
 					  color: #3c12ff;
 					font-family: 'IBM Plex Mono', monospace;
 					position: absolute;
-					
-					
+
+
 				}
-				
+
 			picture{
 				position: relative;
-				
-				
+
+
 			}
-				img {	
-					
-				}	
+				img {
+
+				}
 		}
 		.item{
 			display: inline-block;
@@ -372,7 +372,7 @@ body{
 						    top: 0;
 	    				}
     				}
-    				
+
     			}
 			}
 			@media screen and (max-width: 767px){
@@ -383,7 +383,7 @@ body{
 			}
 		}
 		.item-web{
-			
+
 			@media screen and (min-width: 1024px){
 				.hm-dev-txt{
 				padding: 0 0 0 23%;
@@ -391,7 +391,7 @@ body{
 			}
 		}
 		.item-iden{
-			
+
 			@media screen and (max-width: 767px){
 				margin-top: 6em;
 				width: 100%;
@@ -399,7 +399,7 @@ body{
 			@media screen and (min-width: 1024px){
 				.hm-dev-txt{
 					width: 70%;
-    				margin: -24% 0 16% -36%;
+    				margin: -24% 0 16% 0;
 				}
 			}
 		}
@@ -409,12 +409,12 @@ body{
 					padding-top: 50%;
 				}
 			}
-			
+
 		}
 		.hm-dev-web{
 			    display: inline-block;
-		   
-			
+
+
 			@media screen and (max-width: 380px){
 				background-image:url('../img/object-interaction@1x.png');
 				background-repeat: no-repeat;
@@ -422,7 +422,7 @@ body{
 			    background-size: 90%;
 			    min-height: 280px;
     			background-position: 1em 3em;
-				
+
 			}
 			@media screen  and (min-width: 381px) and (max-width: 767px){
 				background-image:url('../img/object-interaction@1x.png');
@@ -439,7 +439,7 @@ body{
 			    background-size: 60%;
 			    min-height: 390px;
     			background-position:8em 3em;
-				
+
 			}
 			@media screen  and (min-width: 1024px){
 				background:url('../img/object-interaction@1x.png')no-repeat;
@@ -473,6 +473,7 @@ body{
 					margin-top: -7em;
 				}
 				figure{
+					  height: 22em;
 					background:url('../img/object-identity.png')no-repeat;
 					background-size: 60%;
 			   		background-position: 100% 0%;
@@ -485,7 +486,7 @@ body{
 			    display: inline-block;
 			.hm-dev-txt{
 				p{
-					
+
 					color: #4A4A4A;
 					font-size: 18px;
 				}
@@ -500,8 +501,8 @@ body{
     				background-position: 50%;
     				background-size: contain;
 				}
-				
-				
+
+
 			}
 			@media screen  and (min-width: 768px){
 				figure{
@@ -510,12 +511,12 @@ body{
 					min-height: 440px;
 					background-position: 50%;
 				}
-				
+
 			}
 		}
-		
-	
-		
+
+
+
 	}
 	.hm-skills{
 		ul{
@@ -539,7 +540,7 @@ body{
 		}
 	}
 	.hm-background{
-		
+
 		background: url('../img/galaxy.jpg');
 		@media screen and (max-width: 480px){
 			height: 200px;
@@ -585,7 +586,7 @@ body{
 		  color: #ffffff;
 		  margin: 2em 0;
 		  @media screen and (min-width: 482px) and (max-width: 1139px){
-		 
+
 		  	text-align: right;
 		  	/*padding-left: 40%;*/
 		  }
@@ -630,7 +631,7 @@ body{
 			}
 			@media screen and (min-width: 482px) and (max-width: 1139px){
 				text-align:right;
-			
+
 			}
 		}
 		@media screen and (max-width: 480px){
@@ -656,7 +657,7 @@ body{
 					}
 				}
 			}
-		
+
 		}
 
 
@@ -679,13 +680,13 @@ body{
 			background: none;
 			height: 50px;
 			line-height: 50px;
-			color:#9b9b9b; 
+			color:#9b9b9b;
 		}
 		.dataTxt{
 			@include app;
 			border:solid 1px #979797!important;
 			background: none;
-			color:#9b9b9b; 
+			color:#9b9b9b;
 			margin: 2em 0;
 			height: 100px;
 			padding-left: 1em;
@@ -733,13 +734,13 @@ body{
 		}
 
 	}
-	
+
 }
 #logos{
 	padding: 0;
 	background: #fff;
-	
-	
+
+
 	.row{
 		padding: 0;
 		margin: 0;
@@ -813,7 +814,7 @@ body{
 
 				}
 			}
-		
+
 			/*opacity: 0;*/
 		}
 			@media screen and (min-width: 1024px){
@@ -851,7 +852,7 @@ body{
 			background-size: 100%;
 		}
 	}
-	
+
 }
 @media screen and (min-width: 1400px){
 	body .hm-dev  figure{
@@ -859,6 +860,3 @@ body{
 		margin-top: 7em;
 	}
 }
-
-
-

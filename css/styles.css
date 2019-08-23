@@ -8,6 +8,7 @@
     background-position: -30px 0; }
   to {
     background-position: 0 0; } }
+
 .btn-inter {
   cursor: pointer;
   overflow: hidden;
@@ -91,6 +92,7 @@
   padding-top: 6em;
   text-align: center;
   margin: 0 auto; }
+
 @media screen and (min-width: 1024px) {
   .pro-front-80 p {
     width: 40%; }
@@ -249,9 +251,11 @@
     font-weight: 600; }
   .pro-pic-center .pro-pic-txt .pro-desc {
     font-size: 18px; }
+
 .pro-pic-center picture img {
   width: 100%;
   margin-top: -4em; }
+
 .pro-pic-center .pro-arduino-icon {
   margin: 2em; }
   .pro-pic-center .pro-arduino-icon li {
@@ -268,6 +272,7 @@
     .pro-pic-center .pro-arduino-icon li .icon-03 {
       background: url("../img/work/int/arduino-icon-03.png") no-repeat;
       background-size: contain; }
+
 @media screen and (min-width: 1024px) {
   .pro-pic-center .pro-pic-txt {
     margin-right: -8em; } }
@@ -369,6 +374,7 @@
     background-position: -30px 0; }
   to {
     background-position: 0 0; } }
+
 .btn-inter {
   cursor: pointer;
   overflow: hidden;
@@ -399,9 +405,9 @@
   .btn-inter:hover:after {
     width: 110%;
     left: -10px; }
-
   .btn-inter:hover > input {
     color: #fff; } }
+
 #interaction {
   font-family: 'IBM Plex Mono', monospace;
   padding: 0; }
@@ -410,6 +416,7 @@
   #interaction .row {
     margin-right: 0;
     margin-left: 0; } }
+
 #interaction h1 {
   width: 250px;
   font-size: 20px;
@@ -439,6 +446,7 @@
 @media screen and (max-width: 768px) {
   #interaction h1 {
     left: -5em; } }
+
 #interaction .pro-front {
   background: #d5d5d5;
   color: #4a4a4a; }
@@ -461,12 +469,13 @@
 @media screen and (min-width: 1024px) {
   #interaction .pro-front p {
     width: 40%; }
-
   #interaction .pro-front img {
     width: 50%; } }
+
 @media screen and (max-width: 1023px) {
   #interaction .pro-front img {
     width: 70%; } }
+
 #interaction .pro-info {
   background: #fff;
   padding: 3em 0;
@@ -487,9 +496,11 @@
     display: block;
     margin: 0;
     margin-bottom: 1em; } }
+
 @media screen and (min-width: 1024px) {
   #interaction .pro-info .item {
     margin: 0 5em 0 0; } }
+
 #interaction .pro-dark-green {
   background: #00E3C9; }
 
@@ -534,6 +545,7 @@
   #interaction .pro-dark-01 {
     margin-right: 0;
     margin-left: 0; } }
+
 #interaction .pro-pic-right {
   background: #fff; }
 
@@ -580,6 +592,7 @@
 @media screen and (min-width: 1024px) {
   #interaction .pro-pic-right .pro-pic-txt {
     margin-right: -8em; } }
+
 #interaction .pro-pic-left {
   background: #fff; }
 
@@ -600,6 +613,7 @@
   #interaction .pro-pic-left .pro-pic-txt {
     margin-left: -8em;
     max-height: 250px; } }
+
 #interaction .pro-pic-left picture img {
   width: 100%;
   margin-top: -4em; }
@@ -608,6 +622,7 @@
   #interaction .pro-pic-left {
     margin-right: 0;
     margin-left: 0; } }
+
 #interaction .pic-fix img {
   margin-top: inherit !important; }
 
@@ -644,6 +659,7 @@
 @media screen and (max-width: 768px) {
   #interaction .pro-icon-3 div {
     margin: 2em 0; } }
+
 #interaction .pro-light-01 {
   background: #ececec;
   padding: 2em 0; }
@@ -665,9 +681,9 @@
   #interaction .pro-light-01 ul {
     padding: 0;
     text-align: center; }
-
   #interaction .pro-light-01 ul li img {
     max-width: 150px; } }
+
 #interaction .pro-img-tri {
   background: #ececec;
   padding-bottom: 6em; }
@@ -696,6 +712,7 @@
   #digital .row {
     margin-right: 0;
     margin-left: 0; } }
+
 #digital .row .pro-main-img {
   padding: 0; }
 
@@ -728,19 +745,22 @@
   #digital h1 {
     left: -5em;
     top: 9em; } }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #digital h1 {
     top: 4em;
     margin-left: -4em; } }
+
 @media screen and (min-width: 1023px) {
   #digital h1 {
     top: 13em; } }
+
 @media screen and (min-width: 1024px) {
   #digital .pro-front-100 p {
     width: 40%; }
-
   #digital .pro-front-100 img {
     width: 100%; } }
+
 .pro-front-80 picture {
   padding-top: 6em;
   text-align: center;
@@ -749,9 +769,9 @@
 @media screen and (min-width: 1024px) {
   .pro-front-80 p {
     width: 40%; }
-
   .pro-front-80 img {
     width: 100%; } }
+
 .pro-front {
   background: #fff;
   color: #4a4a4a; }
@@ -773,9 +793,9 @@
 @media screen and (max-width: 1023px) {
   .pro-front picture {
     width: 100%; }
-
   .pro-front img {
     width: 100%; } }
+
 .pro-info {
   background: #fff;
   padding: 3em 0;
@@ -794,6 +814,7 @@
 @media screen and (min-width: 1024px) {
   .pro-info .item {
     margin: 0 5em 0 0; } }
+
 .pro-dark-01 {
   background: #3c12ff;
   color: #fff;
@@ -833,6 +854,7 @@
 @media screen and (max-width: 768px) {
   .pro-dark-02 .title p {
     margin-bottom: 2em; } }
+
 .pro-dark-02 .pro-dark-gral-txt {
   padding: 2em 0; }
 
@@ -846,6 +868,7 @@
   .pro-dark-02 {
     margin-right: 0;
     margin-left: 0; } }
+
 .pro-pic-right {
   background: #fff; }
 
@@ -872,6 +895,7 @@
 @media screen and (min-width: 1024px) {
   .pro-pic-right .pro-pic-txt {
     max-height: 230px; } }
+
 .pro-pic-right picture img {
   width: 100%;
   margin-top: -4em; }
@@ -901,9 +925,9 @@
 @media screen and (min-width: 1024px) {
   .pro-pic-right .pro-pic-txt {
     margin-right: -8em; }
-
   .pro-pic-right .pro-pic-icon {
     margin: 5em 0 7em 11em; } }
+
 .pro-pic-right .pro-pic-icon {
   text-align: center; }
 
@@ -914,6 +938,7 @@
 @media screen and (max-width: 768px) {
   .pro-pic-right .pro-pic-icon {
     margin: 4em 0; } }
+
 .pro-pic-right .color-palette {
   margin-bottom: 10em; }
 
@@ -966,6 +991,7 @@
 @media screen and (min-width: 1024px) {
   .pro-pic-center .pro-pic-txt {
     margin-right: -8em; } }
+
 .pro-pic-left {
   background: #fff; }
 
@@ -986,6 +1012,7 @@
   .pro-pic-left .pro-pic-txt {
     margin-left: -8em;
     max-height: 250px; } }
+
 .pro-pic-left picture img {
   width: 100%;
   margin-top: -4em; }
@@ -994,6 +1021,7 @@
   .pro-pic-left {
     margin-right: 0;
     margin-left: 0; } }
+
 .pic-fix img {
   margin-top: inherit !important; }
 
@@ -1123,7 +1151,6 @@
         right: 1em;
       }
     }*/ }
-
   .link-project a:hover > .arrow-pink {
     -webkit-animation-name: arrow;
     /* Safari 4.0 - 8.0 */
@@ -1132,10 +1159,8 @@
     animation-name: arrow;
     animation-duration: 500ms;
     background-position: 0 0; }
-
   .link-project a:hover > .arrow-blue {
     opacity: 0; }
-
   .link-project .next-link {
     font-size: 16px;
     color: #4A4A4A;
@@ -1149,13 +1174,10 @@
     right: 0;
     top: 70%;
     background: rgba(0, 0, 0, 0.2); }
-
   .link-project .next-link .arrow-pink {
     right: 1.2em; }
-
   .link-project .next-link .arrow-blue {
     right: 1.2em; }
-
   .link-project .prev-link {
     font-size: 16px;
     color: #4A4A4A;
@@ -1170,14 +1192,13 @@
     left: 0;
     top: 70%;
     background: rgba(0, 0, 0, 0.2); }
-
   .link-project .prev-link .arrow-pink {
     left: 1.2em;
     transform: rotate(180deg); }
-
   .link-project .prev-link .arrow-blue {
     left: 1.2em;
     transform: rotate(180deg); } }
+
 .pro-white {
   background: #fff;
   color: #4A4A4A;
@@ -1209,9 +1230,9 @@
 @media screen and (max-width: 768px) {
   .pro-img-col-2 .item-big {
     margin-top: 4em; }
-
   .pro-img-col-2 .item-big img {
     width: 100%; } }
+
 .title {
   position: relative; }
 
@@ -1231,26 +1252,23 @@
 @media screen and (max-width: 767px) {
   h1 {
     display: none; }
-
   .col-lg-12 {
     padding: 0; }
-
   .mobile-none {
     display: none; }
-
   #vdoCisco {
     width: 100%;
     height: 280px;
     background: url(../img/work/int/interaction-cisco-resp.png);
     background-size: 160%;
     background-position: 50% 0; } }
+
 @media screen and (max-width: 1024px) {
   .link-project {
     bottom: 0;
     height: 80px;
     line-height: 80px;
     background: #ececec; }
-
   .link-project .next-link {
     position: absolute;
     right: 15px;
@@ -1258,10 +1276,8 @@
     color: #4A4A4A;
     height: 100px;
     line-height: 100px; }
-
   .link-project .next-link .arrow-blue {
     right: 0; }
-
   .link-project .prev-link {
     position: absolute;
     left: 15px;
@@ -1269,15 +1285,15 @@
     color: #4A4A4A;
     height: 100px;
     line-height: 100px; }
-
   .link-project .prev-link .arrow-blue {
     left: 0.2em;
     transform: rotate(180deg); } }
+
 body {
   background-image: linear-gradient(to bottom, #3c12ff, #100449);
   /*.container-fluid{
-      background: linear-gradient(to bottom, #2f2f2f, #000000);
-  }*/ }
+        background: linear-gradient(to bottom, #2f2f2f, #000000);
+    }*/ }
 
 body .container-fluid {
   padding: 0 !important; }
@@ -1322,12 +1338,14 @@ body .hm-nav nav a:after {
     width: 100%;
     padding: 2em;
     top: 50px !important; } }
+
 @media screen and (min-width: 768px) {
   body .hm-nav nav {
     padding: 2em 0 10em 2em;
     top: 78px !important;
     /*  left: -1em !important;
-      top: -1em!important;*/ } }
+            top: -1em!important;*/ } }
+
 body .hm-nav .hm-nav-opt button {
   background: none;
   border: none;
@@ -1359,6 +1377,7 @@ body .hm-nav .hm-nav-opt .dropdown-toggle {
     text-align: right;
     top: 0;
     height: 100%; } }
+
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   body .hm-nav .hm-nav-opt {
     position: absolute;
@@ -1366,6 +1385,7 @@ body .hm-nav .hm-nav-opt .dropdown-toggle {
     text-align: right;
     top: 0;
     height: 100%; } }
+
 body .hm-nav .show button::after {
   background-image: url(../img/icons/close.svg) !important;
   background-size: 60%;
@@ -1383,9 +1403,9 @@ body .hm-nav .btn-default:active:hover, body .hm-nav .btn-default.active:hover, 
 @media screen and (min-width: 1025px) and (max-width: 1139px) {
   body .hm-nav .hm-nav-opt {
     text-align: right; }
-
   body .hm-nav .hm-nav-opt button {
     right: 0; } }
+
 body .home-skills {
   background: #fff;
   text-align: center; }
@@ -1427,6 +1447,7 @@ body .home-skills :nth-child(4) > span {
     display: block;
     padding: 1em;
     margin: 0; } }
+
 body .hm-intro {
   padding: 0;
   width: 100%;
@@ -1447,9 +1468,9 @@ body .hm-intro h1 {
 @media screen and (min-width: 767px) {
   body .hm-intro {
     padding-bottom: 3em; }
-
   body .hm-intro .profile {
     top: 4em; } }
+
 body .hm-about {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 26px;
@@ -1463,29 +1484,29 @@ body .hm-about {
 @media screen and (max-width: 480px) {
   body .hm-about {
     padding: 15px; }
-
   body .hm-about h1 {
     font-size: 30px;
     padding: 15px;
     font-weight: 800; }
-
   body .hm-about p {
     font-size: 18px;
     padding: 15px;
     line-height: 24px; } }
+
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   body .hm-about h1 {
     font-size: 1em;
     margin-bottom: 2em; }
-
   body .hm-about p {
     font-size: 18px;
     line-height: 24px; } }
+
 @media screen and (min-width: 1140px) {
   body .hm-about p {
     line-height: 40px;
     margin-top: 2em;
     text-align: justify; } }
+
 body .hm-nav {
   transition-timing-function: ease-out;
   -webkit-transition-timing-function: ease-out;
@@ -1497,7 +1518,7 @@ body .hm-nav {
   z-index: 999;
   position: relative;
   box-sizing: border-box;
-                       /*
+  /*
 box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);*/ }
 
 body .hm-nav .hm-logo-content .logo {
@@ -1514,22 +1535,27 @@ body .hm-nav .hm-logo-content .logo {
 @media screen and (min-width: 1025px) and (max-width: 1139px) {
   body .hm-nav .hm-logo-content .logo {
     width: 60px; } }
+
 @media screen and (max-width: 480px) {
   body .hm-nav {
     height: 50px;
     position: relative; } }
+
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   body .hm-nav {
     height: 50px;
     margin-right: 0;
     margin-left: 0; } }
+
 @media screen and (min-width: 1025px) and (max-width: 1139px) {
   body .hm-nav {
     height: 80px;
     padding: 10px; } }
+
 @media screen and (min-width: 1140px) {
   body .hm-nav {
     height: 80px; } }
+
 body .hm-dev {
   min-height: 440px;
   padding: 0;
@@ -1598,11 +1624,9 @@ body .hm-dev .item .hm-dev-txt button span {
     transform: skewX(15deg);
     transition: .3s;
     z-index: 0; }
-
   body .hm-dev .item .hm-dev-txt button:hover:after {
     width: 110%;
     left: -10px; }
-
   body .hm-dev .item .hm-dev-txt button:hover > span {
     z-index: 2;
     color: #fff;
@@ -1613,24 +1637,30 @@ body .hm-dev .item .hm-dev-txt button span {
     height: 44px;
     line-height: 44px;
     top: 0; } }
+
 @media screen and (max-width: 767px) {
   body .hm-dev .item .hm-dev-txt {
     padding-top: 0;
     text-align: center; } }
+
 @media screen and (min-width: 1024px) {
   body .hm-dev .item-web .hm-dev-txt {
     padding: 0 0 0 23%; } }
+
 @media screen and (max-width: 767px) {
   body .hm-dev .item-iden {
     margin-top: 6em;
     width: 100%; } }
+
 @media screen and (min-width: 1024px) {
   body .hm-dev .item-iden .hm-dev-txt {
     width: 70%;
     margin: -24% 0 16% -36%; } }
+
 @media screen and (min-width: 1024px) {
   body .hm-dev .item-inter .hm-dev-txt {
     padding-top: 50%; } }
+
 body .hm-dev .hm-dev-web {
   display: inline-block; }
 
@@ -1642,6 +1672,7 @@ body .hm-dev .hm-dev-web {
     background-size: 90%;
     min-height: 280px;
     background-position: 1em 3em; } }
+
 @media screen and (min-width: 381px) and (max-width: 767px) {
   body .hm-dev .hm-dev-web {
     background-image: url("../img/object-interaction@1x.png");
@@ -1650,6 +1681,7 @@ body .hm-dev .hm-dev-web {
     background-size: 70%;
     min-height: 360px;
     background-position: 47% 75%; } }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body .hm-dev .hm-dev-web {
     background-image: url("../img/object-interaction@1x.png");
@@ -1658,6 +1690,7 @@ body .hm-dev .hm-dev-web {
     background-size: 60%;
     min-height: 390px;
     background-position: 8em 3em; } }
+
 @media screen and (min-width: 1024px) {
   body .hm-dev .hm-dev-web {
     background: url("../img/object-interaction@1x.png") no-repeat;
@@ -1665,6 +1698,7 @@ body .hm-dev .hm-dev-web {
     min-height: 600px;
     display: inline-block;
     background-position: 11em 9em; } }
+
 body .hm-dev .hm-dev-mob {
   display: inline-block; }
 
@@ -1675,24 +1709,23 @@ body .hm-dev .hm-dev-mob .hm-dev-txt p {
 @media screen and (max-width: 767px) {
   body .hm-dev .hm-dev-mob {
     margin-top: 25%; }
-
   body .hm-dev .hm-dev-mob figure {
     background: url("../img/object-identity.png") no-repeat;
     min-height: 200px;
     background-size: contain;
     background-position: 0 85%; } }
+
 @media screen and (min-width: 768px) {
   body .hm-dev .hm-dev-mob {
     margin-top: 6em; }
-
   body .hm-dev .hm-dev-mob .hm-dev-txt {
     width: 70%;
     margin-top: -7em; }
-
   body .hm-dev .hm-dev-mob figure {
     background: url("../img/object-identity.png") no-repeat;
     background-size: 60%;
     background-position: 100% 0%; } }
+
 body .hm-dev .hm-dev-tab {
   display: inline-block; }
 
@@ -1703,18 +1736,21 @@ body .hm-dev .hm-dev-tab .hm-dev-txt p {
 @media screen and (max-width: 767px) {
   body .hm-dev .hm-dev-tab .hm-dev-txt {
     text-align: center; } }
+
 @media screen and (max-width: 767px) {
   body .hm-dev .hm-dev-tab figure {
     background: url("../img/ipad.png") no-repeat;
     min-height: 300px;
     background-position: 50%;
     background-size: contain; } }
+
 @media screen and (min-width: 768px) {
   body .hm-dev .hm-dev-tab figure {
     background: url("../img/ipad.png") no-repeat;
     background-size: contain;
     min-height: 440px;
     background-position: 50%; } }
+
 body .hm-skills ul li {
   list-style: none;
   color: #fff;
@@ -1735,19 +1771,22 @@ body .hm-skills ul li:after {
 body .hm-background {
   background: url("../img/galaxy.jpg");
   /*  @include media-breakpoint-up(sm){
-      height: 100px;
-    }*/ }
+        height: 100px;
+      }*/ }
 
 @media screen and (max-width: 480px) {
   body .hm-background {
     height: 200px; } }
+
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   body .hm-background {
     height: 300px; } }
+
 @media screen and (min-width: 1025px) and (max-width: 1139px) {
   body .hm-background {
     height: 800px;
     background-size: cover; } }
+
 body .hm-portfolio {
   position: relative; }
 
@@ -1781,6 +1820,7 @@ body .hm-portfolio article {
   body .hm-portfolio article {
     text-align: right;
     /*padding-left: 40%;*/ } }
+
 body .hm-portfolio figure {
   width: 90%;
   margin: 0 auto;
@@ -1821,24 +1861,23 @@ body .hm-portfolio .hm-link-client a {
 @media screen and (min-width: 482px) and (max-width: 1139px) {
   body .hm-portfolio .hm-link-client {
     text-align: right; } }
+
 @media screen and (max-width: 480px) {
   body .hm-portfolio {
     padding-top: 3em; }
-
   body .hm-portfolio h3 {
     font-size: 25px; }
-
   body .hm-portfolio .hm-portfolio-info .hm-port-logo img {
     width: 100%; } }
+
 @media screen and (min-width: 482px) and (max-width: 1139px) {
   body .hm-portfolio {
     padding-top: 10em; }
-
   body .hm-portfolio .hm-portfolio-info {
     padding-top: 6em; }
-
   body .hm-portfolio .hm-portfolio-info .hm-port-logo img {
     width: 50%; } }
+
 body .contact {
   font-family: 'IBM Plex Mono', monospace;
   background: #fff;
@@ -1923,9 +1962,9 @@ body .contact .behance {
 @media screen and (max-width: 767px) {
   body .contact {
     text-align: center; }
-
   body .contact .item {
     padding-top: 2em; } }
+
 body .contact .item {
   text-align: center; }
 
@@ -1952,17 +1991,17 @@ body .contact .item {
   #logos .logo-main {
     height: 300px;
     line-height: 300px; }
-
   #logos .logo-main picture img {
     max-width: 150px;
     width: 50%; } }
+
 @media screen and (min-width: 768px) {
   #logos .logo-main {
     height: 500px;
     line-height: 500px; }
-
   #logos .logo-main picture img {
     max-width: 150px; } }
+
 #logos .logo-small picture img {
   max-width: 250px !important; }
 
@@ -2048,7 +2087,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-01 {
-          background: url("../img/work/link/link-open-01.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-01.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2063,7 +2102,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-02 {
-          background: url("../img/work/link/link-open-02.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-02.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2078,7 +2117,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-03 {
-          background: url("../img/work/link/link-open-03.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-03.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2093,7 +2132,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-04 {
-          background: url("../img/work/link/link-open-04.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-04.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2108,7 +2147,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-05 {
-          background: url("../img/work/link/link-open-05.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-05.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2123,7 +2162,7 @@ body .contact .item {
       height: 100%; }
       @media screen and (min-width: 1025px) {
         .gallery .project .project-06 {
-          background: url("../img/work/link/link-open-06.jpg")-25px -50px;
+          background: url("../img/work/link/link-open-06.jpg")-25px-50px;
           position: fixed;
           top: 0;
           width: 100%;
@@ -2192,8 +2231,8 @@ body .contact .item {
         @media screen and (min-width: 1024px) {
           .gallery .project .open-nav .link-open-project button:hover {
             /* span {
-                 color: #000 !important;
-             }*/ }
+                                color: #000 !important;
+                            }*/ }
             .gallery .project .open-nav .link-open-project button:hover:after {
               width: 110%;
               left: -10px; } }
@@ -2249,9 +2288,9 @@ body .contact .item {
 
 body {
   background-image: linear-gradient(to bottom, #3c12ff, #100449);
-  	/*.container-fluid{
-    		background: linear-gradient(to bottom, #2f2f2f, #000000);
-  	}*/ }
+  /*.container-fluid{
+  		background: linear-gradient(to bottom, #2f2f2f, #000000);
+	}*/ }
   body .container-fluid {
     padding: 0 !important; }
   body .hm-nav {
@@ -2295,7 +2334,7 @@ body {
           padding: 2em 0 10em 2em;
           top: 78px !important;
           /*  left: -1em !important;
-            top: -1em!important;*/ } }
+			    top: -1em!important;*/ } }
     body .hm-nav .hm-nav-opt button {
       background: none;
       border: none;
@@ -2441,8 +2480,8 @@ body {
     z-index: 999;
     position: relative;
     box-sizing: border-box;
-                       /*
-box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);*/ }
+    /*
+    	box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);*/ }
     body .hm-nav .hm-logo-content .logo {
       color: transparent;
       background: url("../img/logo.svg") no-repeat;
@@ -2559,7 +2598,7 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
     @media screen and (min-width: 1024px) {
       body .hm-dev .item-iden .hm-dev-txt {
         width: 70%;
-        margin: -24% 0 16% -36%; } }
+        margin: -24% 0 16% 0; } }
     @media screen and (min-width: 1024px) {
       body .hm-dev .item-inter .hm-dev-txt {
         padding-top: 50%; } }
@@ -2616,6 +2655,7 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
             width: 70%;
             margin-top: -7em; }
           body .hm-dev .hm-dev-mob figure {
+            height: 22em;
             background: url("../img/object-identity.png") no-repeat;
             background-size: 60%;
             background-position: 100% 0%; } }
@@ -2657,8 +2697,8 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
   body .hm-background {
     background: url("../img/galaxy.jpg");
     /*	@include media-breakpoint-up(sm){
-    		height: 100px;
-    	}*/ }
+			height: 100px;
+		}*/ }
     @media screen and (max-width: 480px) {
       body .hm-background {
         height: 200px; } }
@@ -2884,6 +2924,7 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
     #gallery .item a:hover {
       opacity: 1;
       background: rgba(0, 0, 0, 0.7); } }
+
 @media screen and (min-width: 1024px) {
   #gallery .link-01 {
     background: url("../img/work/home/gallery-01@2x.png");
@@ -2908,5 +2949,3 @@ box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4p
   body .hm-dev figure {
     min-height: 450px;
     margin-top: 7em; } }
-
-/*# sourceMappingURL=styles.css.map */
