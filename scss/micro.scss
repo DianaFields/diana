@@ -20,11 +20,16 @@ transition-timing-function: ease-out;
 					  border: solid 1px #3c12ff;
 					  background: none;
 					  font-family: 'IBM Plex Mono', monospace;
-					  
+
 					  @include app;
 					  span{
 					  	color:#3c12ff;
 					  }
+}
+.space{
+	height: 150px;
+	width: 100%;
+	background: #fff;
 }
 .min-space{
 	height: 50px;
@@ -65,8 +70,8 @@ transition-timing-function: ease-out;
 					  		z-index: 99;
 					  		position: absolute;
 					  	}
-    				
-    				
+
+
     				@media screen and (min-width: 1024px){
     					&:hover:after{
     					width: 110%;
@@ -77,5 +82,3 @@ transition-timing-function: ease-out;
     				}
     				}
 }
-
-

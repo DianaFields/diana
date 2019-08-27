@@ -304,6 +304,14 @@
 		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
+	"/digital/bitrubio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/digital/bitrubio.html",
+		"oF": 0
+		},
 	"/digital/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1433,6 +1441,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/work/dig/digital-softermia-screens_wf.jpg": {
+		"ft": 16384,
+		"iS": 19600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital-softermia-screens_wf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/work/dig/digital-softermia-screens_wf@2x.jpg": {
+		"ft": 16384,
+		"iS": 38651,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital-softermia-screens_wf@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/work/dig/digital_bitrubio_01@2x.jpg": {
+		"ft": 16384,
+		"iS": 35324,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital_bitrubio_01@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/work/dig/digital_bitrubio_screens.jpg": {
+		"ft": 16384,
+		"iS": 30634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital_bitrubio_screens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/work/dig/digital_bitrubio_screens@2x.jpg": {
+		"ft": 16384,
+		"iS": 121899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital_bitrubio_screens@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/work/dig/digtal-01.png": {
 		"ft": 32768,
 		"iS": 96829,
@@ -1487,6 +1550,38 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/work/dig/mck_01.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/mck_01.mp4",
+		"oF": 0
+		},
+	"/img/work/dig/mck_02.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/mck_02.mp4",
+		"oF": 0
+		},
+	"/img/work/dig/mck_03.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/mck_03.mp4",
+		"oF": 0
+		},
+	"/img/work/dig/mck_04.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/mck_04.mp4",
+		"oF": 0
 		},
 	"/img/work/dig/PDG-BLACK.png": {
 		"ft": 32768,
@@ -2783,6 +2878,16 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
+		},
+	"/scss/micro.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/micro-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/scss/micro.scss": {
 		"aP": 0,
