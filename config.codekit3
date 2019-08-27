@@ -1463,6 +1463,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/work/dig/digital_bitrubio_01.jpg": {
+		"ft": 16384,
+		"iS": 28941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/work/dig/digital_bitrubio_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/work/dig/digital_bitrubio_01@2x.jpg": {
 		"ft": 16384,
 		"iS": 35324,
@@ -2878,16 +2889,6 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
-		},
-	"/scss/micro.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/micro-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/scss/micro.scss": {
 		"aP": 0,
